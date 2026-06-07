@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-API_BASE_URL="${API_BASE_URL:-https://zjapi.com}"
-API_KEY="${API_KEY:-sk-0Vjf8bplmcWQ6FORC5WhLZcCCLZ8CHctALgAQb3yGBVmmUVD}"
+API_BASE_URL="${API_BASE_URL:-https://api.nuoda.vip/}"
+API_KEY="${API_KEY:-sk-A54tqqgEHD8FeSNiSjcYKkNpZb59Nkh0QedPPbkrxmCSTtqk}"
 MODEL_ID="${MODEL_ID:-claude-opus-4-8}"
 AUTH_MODE="${AUTH_MODE:-both}" # both, x-api-key, bearer
 TARGET_USERS="${TARGET_USERS:-root admin}"
