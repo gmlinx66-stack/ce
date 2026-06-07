@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-API_BASE_URL="${API_BASE_URL:-https://api.nuoda.vip}"
+API_BASE_URL="${API_BASE_URL:-https://zjapi.com}"
 MODEL_ID="${MODEL_ID:-claude-opus-4-8}"
 CHANNEL="${CHANNEL:-latest}"
 AUTH_MODE="${AUTH_MODE:-both}" # both, x-api-key, bearer
